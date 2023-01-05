@@ -89,22 +89,22 @@ window.jQuery(document).ready(function($){
 
 
     /* magnificPopup image view */
-    $('.popup-image').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    // $('.popup-image').magnificPopup({
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
     /* End magnificPopup image view */
 
 
     /* magnificPopup video view */
-    $('.popup-video').magnificPopup({
-        type: 'iframe',
-        gallery: {
-            enabled: true
-        }
-    });
+    // $('.popup-video').magnificPopup({
+    //     type: 'iframe',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
     /* End magnificPopup video view */
 
 
@@ -114,154 +114,154 @@ window.jQuery(document).ready(function($){
     // End jQuery tooltips //
 
 
-    // Team Slider Slick
-    $('.carousel-slider.gallery-slider').slick({
-        arrows: false,
-        dots: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        draggable: true,
-        responsive: [
-            {
-                breakpoint: 1250,
-                settings: {
-                    slidesToShow: 3,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 990,
-                settings: {
-                    slidesToShow: 1,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    draggable: true
-                }
+    // // Team Slider Slick
+    // $('.carousel-slider.gallery-slider').slick({
+    //     arrows: false,
+    //     dots: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     draggable: true,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1250,
+    //             settings: {
+    //                 slidesToShow: 3,
+    //                 draggable: true
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 990,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 draggable: true
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 767,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 draggable: true
+    //             }
 
-            }
-        ]
-    });
-    // End Team Slider Slick
-
-
-    // Projects Slider Slick
-    $('.carousel-slider.projects-slider').slick({
-        arrows: false,
-        dots: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        draggable: true,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 990,
-                settings: {
-                    slidesToShow: 2,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    draggable: true
-                }
-
-            }
-        ]
-    });
-    // End Projects Slider Slick
-
-    // Sponsor Slider Slick
-    $('.carousel-slider.sponsor-slider').slick({
-        arrows: false,
-        dots: false,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        draggable: true,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 6,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 990,
-                settings: {
-                    slidesToShow: 4,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 3,
-                    draggable: true
-                }
-
-            }
-        ]
-    });
-    // End Projects Slider Slick
-
-    // Students Review Slider Slick
-    $('.carousel-slider.general-slider').each(function() {
-        $(this).slick({
-            arrows: true,
-            dots: true,
-            prevArrow: $('.prev'),
-            nextArrow: $('.next'),
-            margin:0,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            draggable: true,
-            responsive: [{
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    draggable: true
-                }
-            }]
-        });
-    });
-    // End Students Review Slider Slick
+    //         }
+    //     ]
+    // });
+    // // End Team Slider Slick
 
 
-    // Preview images popup gallery with Fancybox //
-    $('.fancybox').fancybox({
-        loop: false
-    });
-    // End Preview images popup gallery with Fancybox //
+    // // Projects Slider Slick
+    // $('.carousel-slider.projects-slider').slick({
+    //     arrows: false,
+    //     dots: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     draggable: true,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1200,
+    //             settings: {
+    //                 slidesToShow: 3,
+    //                 draggable: true
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 990,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 draggable: true
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 767,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 draggable: true
+    //             }
+
+    //         }
+    //     ]
+    // });
+    // // End Projects Slider Slick
+
+    // // Sponsor Slider Slick
+    // $('.carousel-slider.sponsor-slider').slick({
+    //     arrows: false,
+    //     dots: false,
+    //     slidesToShow: 6,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     draggable: true,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1200,
+    //             settings: {
+    //                 slidesToShow: 6,
+    //                 draggable: true
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 990,
+    //             settings: {
+    //                 slidesToShow: 4,
+    //                 draggable: true
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 767,
+    //             settings: {
+    //                 slidesToShow: 3,
+    //                 draggable: true
+    //             }
+
+    //         }
+    //     ]
+    // });
+    // // End Projects Slider Slick
+
+    // // Students Review Slider Slick
+    // $('.carousel-slider.general-slider').each(function() {
+    //     $(this).slick({
+    //         arrows: true,
+    //         dots: true,
+    //         prevArrow: $('.prev'),
+    //         nextArrow: $('.next'),
+    //         margin:0,
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1,
+    //         autoplay: true,
+    //         autoplaySpeed: 5000,
+    //         draggable: true,
+    //         responsive: [{
+    //             breakpoint: 767,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 draggable: true
+    //             }
+    //         }]
+    //     });
+    // });
+    // // End Students Review Slider Slick
+
+
+    // // Preview images popup gallery with Fancybox //
+    // $('.fancybox').fancybox({
+    //     loop: false
+    // });
+    // // End Preview images popup gallery with Fancybox //
 
 
 
-    // Counter animation //
-    $('.counter-number > h4').counterUp ({
-        delay: 10,
-        time: 3000
-    });
-    // End Counter animation //
+    // // Counter animation //
+    // $('.counter-number > h4').counterUp ({
+    //     delay: 10,
+    //     time: 3000
+    // });
+    // // End Counter animation //
 
 
     // Navigation Burger animation //
@@ -307,43 +307,43 @@ window.jQuery(document).ready(function($){
     });
     // End contact form submit process //
 
-    // Slider Home 6 - with arrows Prev Next
-    $('.owl-navigation ').owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        touchDrag:true,
-        mouseDrag:true,
-        autoplay:true,
-        autoplayTimeout:5000,
-        smartSpeed: 1000,
-        autoplayHoverPause:true,
-        responsive:{
-            0:{
-                items:1
-            }
-        }
-    });
-    // Slider End
+    // // Slider Home 6 - with arrows Prev Next
+    // $('.owl-navigation ').owlCarousel({
+    //     loop:true,
+    //     margin:0,
+    //     nav:true,
+    //     touchDrag:true,
+    //     mouseDrag:true,
+    //     autoplay:true,
+    //     autoplayTimeout:5000,
+    //     smartSpeed: 1000,
+    //     autoplayHoverPause:true,
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         }
+    //     }
+    // });
+    // // Slider End
 
-    // Slider Home 2
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:0,
-        nav:false,
-        touchDrag:true,
-        mouseDrag:true,
-        autoplay:true,
-        autoplayTimeout:5000,
-        smartSpeed: 1000,
-        autoplayHoverPause:true,
-        responsive:{
-            0:{
-                items:1
-            }
-        }
-    });
-    // Slider End
+    // // Slider Home 2
+    // $('.owl-carousel').owlCarousel({
+    //     loop:true,
+    //     margin:0,
+    //     nav:false,
+    //     touchDrag:true,
+    //     mouseDrag:true,
+    //     autoplay:true,
+    //     autoplayTimeout:5000,
+    //     smartSpeed: 1000,
+    //     autoplayHoverPause:true,
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         }
+    //     }
+    // });
+    // // Slider End
 
     //newsletter mailchimp
     ajaxMailChimpForm($("#subscribe-form"), $("#subscribe-result"));
